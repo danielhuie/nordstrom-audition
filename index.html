@@ -5,18 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Seattle Traffic Cameras</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
     <body>
+        <section id="description">
+            <h1 class="title-main">Nordstrom Audition</h1>
+            <h3 class="title-subtitle">Option 1 - data.seattle.gov</h3>
+        </section>
 
-        <h1>Seattle Traffic Cameras</h1>
+        <section id="project-info">
+            <div class="container">
+                <h2 class="title-description">Assignment Option #1:</h2>
+                <p id="project-description">In Technology data is key in making critical decisions and having too little or duplicate data may generate mislead reports. Using the City of Seattle's API,https://data.seattle.gov, develop process for continually polling/ collecting available dataset(s).</p>
+                <p>It’s not enough just to have rich data, but you must able to quickly visualize in meaning full way. Use the data previously collected to create visualizations.</p>
+            </div>
 
-        <p>
-            <input type="search" id="search" placeholder="Search for specific street names...">
-        </p>
+            <div class="container">
+                <h2 class="title-description">Project Description:</h2>
+                <p>
+                    <strong>Dataset</strong> Seattle Real Time Fire 911 Calls (<a href="https://data.seattle.gov/resource/kzjm-xkqj.json">https://data.seattle.gov/resource/kzjm-xkqj.json</a>)
+                    <Br>
+                    <br>
+                    <strong>Assumptions - </strong>
+                    We are collected the data from the Seattle Real Time Fire 911 Calls dataset. Using the dataset, I will be
+                    creating a visualization in an informative way that illustrates the Fire Calls according to
+                    location. The User Interface will allow the user to search for a particular location and filter it
+                    in the map.
+                    <br>
+                    <br/>
+                    <strong>Ideas - </strong>
+                    Create a heatmap to visualize the data and implement a data filter. Create a form to sort data and
+                    ask user what they want visualized.
+                    <br/>
+                    <br/>
+                    <strong>Technologies used - </strong> AngularJS, jQuery, Javascript, HTML5, Bootstrap, CSS3, Google Maps API
+                </p>
+            </div>
+        </section>
 
-        <div id="map"></div>
+        <section id="content">
+            <div class="container">
+                <input class="form-control" type="search" id="search" placeholder="Search for specific street names...">
+
+                <div id="map"></div>
+            </div>
+        </section>
 
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAIpf-WVIoIWA2CL4Cw8LJGE6t9Y6mG10A"></script>
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>

@@ -3,6 +3,7 @@
 //put your code here to create the map, fetch the list of traffic cameras
 //and add them as markers on the map
 
+// json: https://data.seattle.gov/Public-Safety/Seattle-Real-Time-Fire-911-Calls/kzjm-xkqj
 
 $(document).ready(function() {
     var mapOptions = {
