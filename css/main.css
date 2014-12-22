@@ -2,12 +2,20 @@
 
 body, input {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 300;
 }
 
 #description {
-    background-image: url('img/seattle_skyline.jpg');
+    background-image:
+    radial-gradient(ellipse closest-side,
+    rgba(0,0,0,0), rgba(0,0,0,.5)),
+    url("../img/seattle_skyline.jpg");
+    background-attachment: fixed;
+    color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    /*background-position: 0px -200px;*/
+    color: whitesmoke;
 }
 
 #map {
@@ -16,16 +24,46 @@ body, input {
     padding: 0;
 }
 
-.container input {
-    width: 100%;
-    margin-bottom: 1em;
-}
-
-#project-description {
+.filter-zone {
     padding-bottom: 1em;
 }
 
-.title-main, .title-subtitle, .title-description {
+#dropdownMenu1 {
+    width: 100%;
+}
+
+#dropdown-items {
+    width: 100%;
+}
+
+#clear {
+    background-color: lightgoldenrodyellow;
+}
+
+#filter-level-1, #filter-level-2{
+    padding: 0;
+    margin: 0;
+}
+
+.container input {
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.project-overview, .project-purpose {
+    opacity: 0.5;
+}
+
+.project-overview:hover, .project-purpose:hover {
+    border-left: 2px solid #614126;
+    opacity: 1.0;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+}
+
+.title-main, .title-subtitle, .title-description, .title-center {
     font-family: 'Lato', sans-serif;
 }
 
@@ -43,6 +81,14 @@ body, input {
 
 .title-description {
     font-weight: 400;
+}
+
+.title-center {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
 }
 
 section {
