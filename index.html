@@ -31,8 +31,9 @@
                 <h2 class="title-description">Project Overview:</h2>
                 <p>
                     <strong>Dataset - </strong> City of Seattle Bicycle Racks (<a href="https://data.seattle.gov/resource/vncn-umqp.json">https://data.seattle.gov/resource/vncn-umqp.json</a>)
-                    <Br>
                     <br>
+                    <br>
+
                     <strong>Assumptions - </strong>
                     We are collecting data from the City of Seattle Bicycle Racks dataset. Using the dataset, I will be
                     creating a visualization in an informative way that illustrates the numerous racks in the city according to
@@ -40,21 +41,26 @@
                     in the map.
                     <br>
                     <br/>
-                    <strong>Questions - </strong>
-                    <ul>What is the best way to display the data?</ul>
-                    <ul>How many datasets do we want to compare?</ul>
-                    <ul>What properties do we want to filter?</ul>
-                    <ul>How could we make loading the JSON data more efficient since we are dealing with thousands of data points?</ul>
+
+                    <strong>Questions - </strong><br>
+                    What is the best way to display the data?<br>
+                    How many datasets do we want to compare?<br>
+                    What properties do we want to filter?<br>
+                    How could we make loading the JSON data more efficient since we are dealing with thousands of data points?<br>
+                    Is a heatmap more effective than individual data points?
                     <br>
-                    <br/>
+                    <br>
+
                     <strong>Idea - </strong>
-                    Create a heatmap to visualize the data and implement a data filter. Create a form to sort data and
+                    Implement Google Maps API to visualize the data and implement a data filter. Create a form to sort data and
                     ask user what they want visualized.
                     <br/>
                     <br/>
+
                     <strong>Technologies used - </strong>jQuery, Javascript, JSON, HTML5, Bootstrap, CSS3, Google Maps API
                     <br/>
                     <br/>
+
                     <strong>Why illustrate individual data points - </strong>
                     Individual data points allows us to see where the bike racks are physically located. It also helps
                     us to visualize the density of the racks positioned adjacent to one another, thus allowing policy
@@ -88,7 +94,7 @@
                 <p>
                     I will also build a detailed filtering system that allows the user to toggle between a heat map
                     and the static marker display. This allows the user to visualize the data in two forms to compare
-                    and contrast.
+                    and contrast population density with respect to bike rack location.
                 </p>
             </div>
         </section>
@@ -96,7 +102,7 @@
         <section id="content">
             <div class="container">
                 <!--button filtering-->
-                <h3>Filters</h3>
+                <h2 class="title-description">Filters</h2>
                 <br>
                 <h4>Bike Rack Conditions...</h4>
                 <div class="btn-group btn-group-justified filter-zone" role="group" aria-label="...">
