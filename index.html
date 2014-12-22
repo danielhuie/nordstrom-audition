@@ -12,8 +12,10 @@
 </head>
     <body>
         <section id="description">
-            <h1 class="title-main">Nordstrom Audition</h1>
-            <h3 class="title-subtitle">Option 1 - data.seattle.gov</h3>
+            <div class="container">
+                <h1 class="title-main">Nordstrom Audition</h1>
+                <h3 class="title-subtitle">By Daniel Huie</h3>
+            </div>
         </section>
 
         <section id="project-info">
@@ -28,14 +30,21 @@
             <div class="container project-overview">
                 <h2 class="title-description">Project Overview:</h2>
                 <p>
-                    <strong>Dataset - </strong> Seattle Real Time Fire 911 Calls (<a href="https://data.seattle.gov/resource/kzjm-xkqj.json">https://data.seattle.gov/resource/kzjm-xkqj.json</a>)
+                    <strong>Dataset - </strong> City of Seattle Bicycle Racks (<a href="https://data.seattle.gov/resource/vncn-umqp.json">https://data.seattle.gov/resource/vncn-umqp.json</a>)
                     <Br>
                     <br>
                     <strong>Assumptions - </strong>
-                    We are collected the data from the Seattle My Neighborhoods dataset. Using the dataset, I will be
-                    creating a visualization in an informative way that illustrates the numerous parks in the city according to
+                    We are collecting data from the City of Seattle Bicycle Racks dataset. Using the dataset, I will be
+                    creating a visualization in an informative way that illustrates the numerous racks in the city according to
                     location. The User Interface will allow the user to search for a particular location and filter it
                     in the map.
+                    <br>
+                    <br/>
+                    <strong>Questions - </strong>
+                    <ul>What is the best way to display the data?</ul>
+                    <ul>How many datasets do we want to compare?</ul>
+                    <ul>What properties do we want to filter?</ul>
+                    <ul>How could we make loading the JSON data more efficient since we are dealing with thousands of data points?</ul>
                     <br>
                     <br/>
                     <strong>Idea - </strong>
@@ -43,11 +52,13 @@
                     ask user what they want visualized.
                     <br/>
                     <br/>
-                    <strong>Technologies used - </strong>AngularJS, jQuery, Javascript, JSON, HTML5, Bootstrap, CSS3, Google Maps API
+                    <strong>Technologies used - </strong>jQuery, Javascript, JSON, HTML5, Bootstrap, CSS3, Google Maps API
                     <br/>
                     <br/>
-                    <strong>Why a heatmap for data visualization? - </strong>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis delectus dignissimos esse impedit in laboriosam maiores necessitatibus non repellendus, sequi ullam voluptatem voluptatibus! Consectetur ea enim optio pariatur quam.
+                    <strong>Why illustrate individual data points - </strong>
+                    Individual data points allows us to see where the bike racks are physically located. It also helps
+                    us to visualize the density of the racks positioned adjacent to one another, thus allowing policy
+                    makers to make quick decisions on where to install future bike racks.
                 </p>
             </div>
         </section>
@@ -68,10 +79,16 @@
             <div class="container">
                 <h2 class="title-center">A Work in Progress...</h2>
                 <p>
-                    By displaying bike racks located throughout the city of Seattle, city officials are able to visually
-                    locate bike racks. This is particularly useful for urban and environmental planning purposes so city
-                    officials can strategically place bike racks across the city without creating too much clutter in one area.
-                    In the event that a rack needs maintenance, they are able to filter the results and identify the rack based on condition.
+                    Although I have experience with AngularJS, integration with the Google Maps API is better off using
+                    jQuery because DOM manipulation is easier and more organized in the code base. However, future
+                    implementations of AngularJS can include creating a table listing the data in the order search
+                    results are fetched. Pagination will also be included so that data is loaded from the server and not
+                    all at once on the client-side.
+                </p>
+                <p>
+                    I will also build a detailed filtering system that allows the user to toggle between a heat map
+                    and the static marker display. This allows the user to visualize the data in two forms to compare
+                    and contrast.
                 </p>
             </div>
         </section>
@@ -107,16 +124,16 @@
                                 <span class="caret"></span>
                             </button>
                             <ul class="dropdown-menu" id="dropdown-items" role="menu" aria-labelledby="dropdownMenu1">
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ballard</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">International District</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Greenwood/Phinney</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Queen Anne</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Georgetown</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Capitol Hill</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Kirkland</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Columbia City</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Ravenna</a></li>
-                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">University District</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Ballard</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">International District</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Greenwood/Phinney</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Queen Anne</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Georgetown</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Capitol Hill</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Kirkland</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Columbia City</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">Ravenna</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="">University District</a></li>
 
                             </ul>
                         </div>

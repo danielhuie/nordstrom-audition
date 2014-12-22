@@ -16,6 +16,7 @@ $(document).ready(function() {
             lng: -122.3
         },
         zoom: 13,
+        mapTypeId: google.maps.MapTypeId.SATELLITE,
 
         // custom stylization and color for Google Maps
         styles: [
@@ -91,6 +92,7 @@ $(document).ready(function() {
     var infoWindow = new google.maps.InfoWindow();
 
     var arr = [];
+    // array that stores geographical coordinates for a heat map implementation
     var heatMapData = [];
 
     // parses JSON data to retrieve geographical information and display on the map
@@ -117,13 +119,9 @@ $(document).ready(function() {
 
                 // event listener to display HTML content on click
                 google.maps.event.addListener(marker, 'click', function() {
-                    var website_url = place.website.url;
-                    var address = place.address;
-                    var city_feature = place.city_feature;
-                    var common_name = place.common_name;
-                    //var content = '<img src=\"' + imgURL + "\">";
-
-                    //infoWindow.setContent(content);
+                    var address = place.unitdesc;
+                    var content = '<p style="font-size: 12px">' + address + '</p>';
+                    infoWindow.setContent(content);
                     infoWindow.open(map, this);
                     map.panTo(marker.getPosition());
                 });
