@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6f187c3a-141f-481d-9930-b5d2ef04c5c5" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="traffic-cam-challenge.iws" />
@@ -52,10 +50,10 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5457788" vertical-offset="1615" max-vertical-offset="4624">
-              <caret line="122" column="83" selection-start-line="122" selection-start-column="83" selection-end-line="122" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.33643773" vertical-offset="0" max-vertical-offset="4607">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
-                <marker date="1419231382150" expanded="true" signature="3869:3884" placeholder="..." />
+                <marker date="1419231544830" expanded="true" signature="3817:3832" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -89,9 +87,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1032" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -243,7 +242,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1032" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -328,7 +327,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1360">
           <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
           <folding>
-            <marker date="1419231382150" expanded="true" signature="3869:3884" placeholder="..." />
+            <marker date="1419231544830" expanded="true" signature="3817:3832" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -362,7 +361,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1360">
           <caret line="5" column="90" selection-start-line="5" selection-start-column="90" selection-end-line="5" selection-end-column="90" />
           <folding>
-            <marker date="1419231382150" expanded="true" signature="3869:3884" placeholder="..." />
+            <marker date="1419231544830" expanded="true" signature="3817:3832" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -424,10 +423,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5457788" vertical-offset="1615" max-vertical-offset="4624">
-          <caret line="122" column="83" selection-start-line="122" selection-start-column="83" selection-end-line="122" selection-end-column="83" />
+        <state vertical-scroll-proportion="0.33643773" vertical-offset="0" max-vertical-offset="4607">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
-            <marker date="1419231382150" expanded="true" signature="3869:3884" placeholder="..." />
+            <marker date="1419231544830" expanded="true" signature="3817:3832" placeholder="..." />
           </folding>
         </state>
       </provider>

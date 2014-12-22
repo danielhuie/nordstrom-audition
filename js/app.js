@@ -16,7 +16,6 @@ $(document).ready(function() {
             lng: -122.3
         },
         zoom: 13,
-        mapTypeId: google.maps.MapTypeId.SATELLITE,
 
         // custom stylization and color for Google Maps
         styles: [
